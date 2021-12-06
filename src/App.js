@@ -21,6 +21,7 @@ function App() {
         setTaskItems(JSON.parse(data))
     } else {
           setUserName("fazt");
+          console.log('dfsag')
           setTaskItems([
               { name: "Naruto", done: false },
               { name: "AOT", done: false },
